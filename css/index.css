@@ -1,0 +1,99 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   padding-top: 70px;
+  
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /* background-color: #ECE0F8; */
+}
+
+
+footer {
+	/*background-color: #082457;*/
+	color: #fff;
+	padding: 20px 0;
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+  opacity: 1;
+}
+
+/* .background { 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    opacity: 1;
+	size: cover;
+	background-size: 100% 100%;
+}*/
+
+.background {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    /* opacity: 0.9; */
+	size: cover;
+	background-size: 100% 100%;
+}
+
+
+.right-half {
+	margin-left: 900px;
+}
+
+.carousel-caption {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0);
+	border-radius: 25px;
+	 position: absolute;
+    top: 20%;
+}
+
+#loginsubmitbutton {
+	padding-top: 14px;
+	padding-right: 14px;
+}
+
+form {
+	
+	
+	font-size: 18px;
+}
+
+h1 {
+	
+	font-weight: bold;
+}
+
+.register-form input[type="text"] {
+	background-color: #ECE0F8;
+}
+
+.carousel-inner > .item > img {
+	height: 100%;
+}

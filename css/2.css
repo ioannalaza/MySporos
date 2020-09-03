@@ -1,0 +1,22 @@
+h2 {
+	float:center;
+}
+input {
+width: 70%;}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    float: center;
+}
+input[type="checkbox"]{
+	position: absolute;
+	right: 9000px;
+}
+label{
+	position: relative;
+	cursor: pointer;
+	color: #666;
+	font-size: 20px;
+}
